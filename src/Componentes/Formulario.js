@@ -4,11 +4,11 @@ class Formulario extends Component{
     constructor(){
         super();
         this.state={
-            titulo:"",
+            articulo:"",
             descripcion:"",
-            prioridad:"Alta",
-            responsable:"",
-            tiempo:0,
+            valor:"Alto",
+            usuario:"",
+            cantidad:0,
             imagen:""            	
         }
         this.guardar = this.guardar.bind(this);
@@ -34,33 +34,34 @@ class Formulario extends Component{
 
     render(){
         return(
-            <div className="card w-50 m-auto">
-                <h1 className="m-auto">Nueva Tarjeta</h1>
+            <div className="card w-50 m-auto bg-dark mt-4 mb-4 border-white">
+                <h1 className="m-auto">Nuevo Articulo</h1>
                 <form className="card-body">
                     <div className="form-group">
-                        <input type="text" name="titulo" className="form-control" onChange={this.cambio} placeholder="Titulo Tarjeta"/>
+                        <input type="text" name="articulo" className="form-control" onChange={this.cambio} placeholder="Nombre Articulo"/>
                     </div>
                     <div className="form-group">
-                        <input type="text" name="descripcion" className="form-control mt-3" placeholder="Descripción Tarjeta"/>
+                        <input type="text" name="descripcion" className="form-control mt-3" placeholder="Descripción Articulo"/>
                     </div>
                     <div className="form-group">
-                        <input type="text" name="responsable" className="form-control mt-3" placeholder="Responsable Tarjeta"/>
+                        <input type="text" name="usuario" className="form-control mt-3" placeholder="Usuario"/>
                     </div>
                     <div className="form-group">
-                        <input type="number" name="tiempo" className="form-control mt-3" placeholder="Tiempo en minutos"/>
+                        <input type="number" name="cantidad" className="form-control mt-3" placeholder="Cantidad"/>
                     </div>
                     <div className="form-group">
                         <input type="text" name="imagen" className="form-control mt-3" placeholder="Imagen Tarjeta (carpeta recursos)"/>
                     </div>
+                    <h5 className="text-white mt-4">Valor</h5>
                     <div className="form-group">
-                        <select className="form-control mt-3" name="prioridad">
-                            <option>Baja</option>
-                            <option>Media</option>
-                            <option>Alta</option>
+                        <select className="form-control mt-3" name="valor">
+                            <option>Bajo</option>
+                            <option>Medio</option>
+                            <option>Alto</option>
                         </select>
                     </div>
                     <div className="form-group d-grid gap-2 col-4 mx-auto mt-3">
-                        <button className="btn btn-primary" onClick={this.guardar} type="submit">Guardar</button>
+                        <button className="btn btn-primary" onClick={this.guardar} type="submit">Crear</button>
                     </div>
                 </form>
             </div>

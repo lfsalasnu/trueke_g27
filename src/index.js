@@ -5,11 +5,13 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Pie_pagina from "./Componentes/Pie_pagina";
 import Navegacion from './Componentes/Navegacion';
+import Encabezado from './Componentes/Encabezado';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Navegacion enlace1="Inicio" enlace2="Crear Tarjeta" enlace3="Iniciar Sesión" enlace4="Crear Usuario"/>
+    <Encabezado/>
+    <Navegacion enlace1="Inicio" enlace2="Crear Articulo" enlace3="Iniciar Sesión" enlace4="Crear Usuario"/>
     {/* <App /> */}
     <Pie_pagina/>
   </React.StrictMode>
