@@ -1,0 +1,34 @@
+[
+    {
+        "nombre":"Sticker Luka Modric",
+        "descripcion": "Tarjeta Panini Leyenda Luka Modric Croacia",
+        "valor":"Alto",
+        "cantidad":1,
+        "usuario":"Luis",
+        "imagen":"./Recursos/img1.jpg"
+    },
+    {
+        "nombre":"Sticker Luis Suarez",
+        "descripcion": "Tarjeta Panini Leyenda Luis Suarez Uruguay",
+        "valor":"Alto",
+        "cantidad":3,
+        "usuario":"Paula",
+        "imagen":"./Recursos/img2.jpg"
+    },
+    {
+        "nombre":"Libro Después",
+        "descripcion": "Es una novela policial del escritor Stephen King. Fue publicada originalmente el 2 de marzo de 2021 en idioma inglés y el 21 de junio en idioma español.",
+        "valor":"Medio",
+        "cantidad":2,
+        "usuario":"Pedro",
+        "imagen":"./Recursos/despues.webp"
+    },
+    {
+        "nombre":"Libro Dracula",
+        "descripcion": "Drácula, es una novela de fantasía gótica escrita por Bram Stoker, publicada en 1897. ​​ Publicada en castellano por Ediciones Hymsa bajo la colección ‘La novela aventura’ en 1935.",
+        "valor":"Bajo",
+        "cantidad":10,
+        "usuario":"Ariana",
+        "imagen":"./Recursos/dracula.webp"
+    }
+]

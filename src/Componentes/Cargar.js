@@ -1,6 +1,6 @@
 import React,{Component} from "react";
 import Datos from "./Datos.json";
-import Tarjetas from "./Tarjetas";
+import Articulos from "./Articulos";
 class Cargar extends Component{
     constructor(){
         super();
@@ -11,7 +11,7 @@ class Cargar extends Component{
         //console.log(this.state);
         let datos=this.state.Datos.map((dato)=>{
             return(
-                <Tarjetas titulo={dato.Titulo} descripcion={dato.Descripcion} prioridad={dato.Prioridad} responsable={dato.Responsable} tiempo={dato.Numero} imagen={dato.imagen}/>
+                <Articulos nombre={dato.nombre} descripcion={dato.descripcion} valor={dato.valor} usuario={dato.usuario} cantidad={dato.cantidad} imagen={dato.imagen}/>
             );
         })
         return(

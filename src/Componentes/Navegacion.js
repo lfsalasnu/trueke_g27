@@ -25,15 +25,15 @@ class Navegacion extends Component {
                     <input class="form-control me-2 mt-2 ms-5 justify-content-end" type="search" placeholder="Buscar" aria-label="Search"/>
                         <button class="btn btn-outline-primary me-2 mt-2 ms-2 justify-content-end" type="submit">Buscar</button>
                     </form>
-                    <div className="text-primary me-2 mt-2 ms-5 text-white">
-                        Usuario no identificado
+                    <div className="text-primary mt-3 ms-5 text-primary">
+                        Luis
                     </div>
                 </ul>
                 
                 
                 <div className="tab-content" id="myTabContent">
                     <div className="tab-pane fade show active text-white" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
-                        <App />
+                        {this.props.pest1}
                     </div>
                     <div className="tab-pane fade text-white" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
                         <Formulario/>
