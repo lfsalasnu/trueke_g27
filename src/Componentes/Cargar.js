@@ -15,7 +15,7 @@ class Cargar extends Component{
             );
         })
         return(
-            <div className="row">{datos}</div>
+            <div className="row"></div>
         );
 
     }

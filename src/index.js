@@ -8,6 +8,9 @@ import Navegacion from './Componentes/Navegacion';
 import Encabezado from './Componentes/Encabezado';
 import Cargar from './Componentes/Cargar';
 
+
+// mongodb+srv://trueke:<123456789abcde>@cluster0.py9ltpf.mongodb.net/?retryWrites=true&w=majority
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>

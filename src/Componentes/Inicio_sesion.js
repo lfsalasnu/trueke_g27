@@ -24,7 +24,7 @@ class Inicio_sesion extends Component {
                                 </label>
                             </div>
                             <button className="w-50 btn btn-lg btn-primary" type="submit">Iniciar Sesión</button>
-                            <p class="mt-5 mb-3 text-muted">Trueke &copy; 2022</p>
+                            <p className="mt-5 mb-3 text-muted">Trueke &copy; 2022</p>
                     </form>
                 </main>
 
